@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>hello.js</file>
+        <file>main.qml</file>
+        <file>ledscreencomponent/LedScreen.qml</file>
+        <file>ledscreencomponent/images/led_off.png</file>
+        <file>ledscreencomponent/images/led_on.png</file>
+    </qresource>
+</RCC>
