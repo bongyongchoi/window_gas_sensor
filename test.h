@@ -14,6 +14,8 @@ public:
     QTimer *timer;
     explicit Test(QObject *parent = 0);
     Q_INVOKABLE int hello() const;
+    Q_INVOKABLE void getSetting(QString port, int baudrate, int databit,
+                                int parity, int stopbit, int flowcontrol );
 signals:
     void sendQmlSerial(const QString &data);
     void errorOccur();
