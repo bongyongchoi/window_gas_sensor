@@ -15,7 +15,7 @@ public:
     explicit Test(QObject *parent = 0);
     Q_INVOKABLE int hello() const;
 signals:
-    void sendQmlSerial(const QString &hi);
+    void sendQmlSerial(const QString &data);
     void errorOccur();
 
 public slots:

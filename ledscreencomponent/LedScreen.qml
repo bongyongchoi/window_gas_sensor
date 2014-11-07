@@ -5,7 +5,7 @@ Item {
     // QML content used as a source
     property alias sourceItem: effectSource.sourceItem
     // Size of one led, in pixels
-    property real ledSize: 12
+    property real ledSize: 300
     // Color of a led, default yellow
     property color ledColor: Qt.rgba(1.0, 1.0, 0.0, 1.0);
     // Set this true to use colors from sourceItem instead of ledColor

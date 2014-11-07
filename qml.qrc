@@ -5,5 +5,9 @@
         <file>ledscreencomponent/LedScreen.qml</file>
         <file>ledscreencomponent/images/led_off.png</file>
         <file>ledscreencomponent/images/led_on.png</file>
+        <file>content/Setting.qml</file>
+        <file>content/TabWidget.qml</file>
+        <file>content/DashBoard.qml</file>
+        <file>images/tab.png</file>
     </qresource>
 </RCC>
