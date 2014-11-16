@@ -56,7 +56,8 @@ Item {
 
     function setOpacities() {
         for (var i = 0; i < stack.children.length; ++i) {
-            stack.children[i].opacity = (i == current ? 1 : 0)
+           // stack.children[i].opacity = (i == current ? 1 : 0);
+            stack.children[i].visible = (i == current ? 1 : 0);
         }
     }
 

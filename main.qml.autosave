@@ -7,7 +7,7 @@ import "hello.js" as Logic
 import "ledscreencomponent"
 import QtGraphicalEffects 1.0
 import QtQuick.Layouts 1.1
-
+i
 Window {
     id: win
     visible: true

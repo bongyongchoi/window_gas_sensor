@@ -9,5 +9,9 @@
         <file>content/TabWidget.qml</file>
         <file>content/DashBoard.qml</file>
         <file>images/tab.png</file>
+        <file>content/ComboModel.qml</file>
+        <file>content/Turbulence.qml</file>
+        <file>images/glowdot.png</file>
+        <file>images/candle.png</file>
     </qresource>
 </RCC>

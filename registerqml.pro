@@ -3,7 +3,7 @@ TEMPLATE = app
 QT += qml quick serialport
 
 SOURCES += main.cpp \
-    test.cpp
+    SerialControl.cpp
 
 RESOURCES += qml.qrc
 
@@ -14,6 +14,6 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 HEADERS += \
-    test.h
+    SerialControl.h
 
 OTHER_FILES +=
